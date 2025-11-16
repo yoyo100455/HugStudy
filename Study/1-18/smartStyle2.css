@@ -15,7 +15,7 @@
         height: 250px;
     }
 
-    .contents {
+    .contens {
         overflow: hidden;
     }
 
@@ -68,35 +68,37 @@
     .center-middle,
     .center-lower,
     .footer {
-        float: none !important;
-        clear: both !important;
-        width: 100% !important;
+        float: none ;
+        clear: both ;
+        width: 100% ;
     }
 
-    .header { 
+    .header,
+    .footer {
         height: 100px;
     }
-    .left { 
-        height: 250px;
+
+    .left {
+        height: 100px;
     }
 
-    .right { 
-        height: 150px;
-    }
-
-    .center-upper { 
+    .center-upper {
         height: 50px;
     }
 
-    .center-middle { 
+    .right {
         height: 100px;
     }
 
-    .center-lower { 
-        height: 100px;
-    }
-    .footer { 
+    .center-middle {
         height: 100px;
     }
 
+    .center-lower {
+        height: 100px;
+    }
+
+    .right-column-wrapper {
+        height: auto;
+    }
 }
