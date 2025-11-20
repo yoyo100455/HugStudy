@@ -1,0 +1,116 @@
+/* reset.css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+}
+.clearfix:after,
+.contents:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* wrapperクラスを中央寄せ */
+.wrapper {
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+.bg-green {
+    background-color: #C2FFC8;
+}
+.bg-red {
+    background-color: #FFC2C5;
+}
+
+/** header **/
+.header {
+    height: 100px;
+    background-color: #FFCE7a;
+    position: relative;
+}
+
+.header-inner-white {
+    width: 160px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header-box-item {
+    width: 40px;
+    height: 40px;
+}
+
+.left {
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #9DDDF4;
+}
+
+.right-column-wrapper {
+    float: left;
+    width: 250px;
+    height: 250px;
+    background-color: #C2FFC8;
+    display: block;
+}
+
+.center-inner-white-1,
+.center-inner-white-2,
+.center-inner-white-3 {
+    width: 150px;
+    height: 50px;
+    background-color: #fff;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.center-inner-white-1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.center-inner-white-2 {
+    margin-bottom: 10px;
+}
+
+.center-inner-white-3 {
+    margin-bottom: 40px;
+}
+
+.center-inner-red-1,
+.center-inner-red-2,
+.center-inner-red-3 {
+    width: 140px;
+    height: 40px;
+    background-color: #FFC2C5;
+    display: block;
+    margin: 0;
+}
+
+.footer {
+    height: 100px;
+    clear: both;
+    background-color:#BEA5FF ;
+    width: 400px;
+}
