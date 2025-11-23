@@ -7,24 +7,25 @@
 
     .header {
         height: 180px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: block;
     }
     
     .header-inner-white {
-        position: static;
-        top: auto;
-        right: auto;
+        position: absolute;
+        top: 10px;
+        right: 70px;
+
+        transform: none;
+        margin: 0;
+
         width: 60px;
         height: 160px;
-        margin: auto;
 
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
-        padding: 0;
+        padding: 10px;
     }
 
     .header-box-item {
@@ -50,9 +51,8 @@
         margin-top: 0;
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        padding-top: 20px;
-        padding-bottom: 10px;
+        align-items: center;
+        padding:20px 10px;
         box-sizing: border-box;
     }
     
@@ -61,10 +61,7 @@
     .center-inner-white-3 {
         width: 150px;
         height: 50px;
-        margin-left: 30px;
-        margin-right: 0;
-        margin-top: 0;
-        margin-bottom: 0;
+        margin:0 auto 10px auto;
     }
 
     .center-inner-white-1 {
