@@ -44,11 +44,10 @@ body {
     width: 160px;
     height: 60px;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 20px;
     right: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 0 10px;
 }
@@ -71,12 +70,9 @@ body {
     height: 250px;
     background-color: #C2FFC8;
     padding: 40px 60px 40px 40px;
-    display: block;
 }
 
-.center-inner-white-1,
-.center-inner-white-2,
-.center-inner-white-3 {
+.center-inner-white {
     width: 150px;
     height: 50px;
     background-color: #fff;
@@ -84,22 +80,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px;
 }
 
-.center-inner-red-1,
-.center-inner-red-2,
-.center-inner-red-3 {
+.center-inner-red {
     width: 140px;
     height: 40px;
     background-color: #FFC2C5;
     display: block;
-    margin: 0;
 }
 
 .footer {
     height: 100px;
     clear: both;
     background-color:#BEA5FF ;
-    width: 400px;
 }
