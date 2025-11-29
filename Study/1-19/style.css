@@ -9,12 +9,6 @@ body {
     min-height: 100%;
     height: 100%;
 }
-.clearfix:after,
-.contents:after {
-    content: '';
-    display: block;
-    clear: both;
-}
 
 /* wrapperクラスを中央寄せ */
 .wrapper {
@@ -80,18 +74,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-grow: 0; 
+    flex-shrink: 0;
 }
 
 .center-inner-red {
     width: 140px;
     height: 40px;
     background-color: #FFC2C5;
-    display: block;
 }
 
 .footer {
+    width: 100%;
     height: 100px;
-    background-color:#BEA5FF ;
+    background-color:#BEA5FF;
 }
 
 .contents {
