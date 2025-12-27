@@ -30,7 +30,7 @@ public class Task2_8 {
 
 
     // ③下記の処理について、何をしているのかコメントを記入して下さい。
-    // [ここへ記述]
+    // [10に2を掛けた計算結果を、int型の変数 multiply に代入]
     int multiply = 10 * 2;
 
 
@@ -42,7 +42,7 @@ public class Task2_8 {
 
 
     // ⑤下記の処理について、何をしているのかコメントを記入して下さい。
-    // [ここへ記述]
+    // [String型の変数 town に "中央" を、 lineに "線" という文字列を代入]
     String town = "中央";
     String line = "線";
 
