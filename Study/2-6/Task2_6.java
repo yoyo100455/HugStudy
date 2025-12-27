@@ -20,7 +20,7 @@ public class Task2_6 {
         String hogeString = "テスト";
 
         // ③下記の処理について、何をしているのかコメントを記入してください
-        // [ここへ記述]
+        // [double 方の変数　hogeDouble　を宣言して初期値に0.8を代入]
         double hogeDouble = 0.8;
 
         // ④変数 hogeInt を値「100」で上書き
@@ -33,7 +33,7 @@ public class Task2_6 {
         System.out.println(hogeInt);
 
         // ⑦下記の処理について、何をしているのかコメントを記入してください
-        // [ここへ記述]
+        // [文字列が入っている変数 hogeString の中身を表示して改行]
         System.out.println(hogeString);
 
         // ⑧変数 hogeDouble の値を表示
