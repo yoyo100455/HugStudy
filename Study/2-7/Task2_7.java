@@ -32,7 +32,7 @@ public class Task2_7 {
         System.out.println(strArray[2]);
 
         /* ⑤下記の処理について、何をしているのかコメントを記入して下さい。
-        *  [intArray という名前の5つ連続した仕切りがある箱を用意し、それぞれに10、20、30、40、50を入れる]
+        *  [int型の配列intArrayを作成し、初期値を代入]
         */
         int[] intArray = { 10, 20, 30, 40, 50 };
 
