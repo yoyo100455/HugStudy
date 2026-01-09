@@ -32,7 +32,7 @@ public class Task2_7 {
         System.out.println(strArray[2]);
 
         /* ⑤下記の処理について、何をしているのかコメントを記入して下さい。
-        *  [int型の配列intArrayを作成し、初期値を代入]
+        *  [(10)、(20)、(30)、(40)、(50)を要素の値（初期値）とする配列 intArray を作成]
         */
         int[] intArray = { 10, 20, 30, 40, 50 };
 
