@@ -13,8 +13,8 @@ public class Task2_16 {
 
         //① firstNameとlastNameという名前の変数を定義し、
         // firstNameには自分の名前、lastNameには自分の名字で初期化しなさい
-        String firstName = "小川";
-        String lastName ="唯";
+        String firstName = "唯";
+        String lastName ="小川";
         
         //getNameメソッドの呼び出しと出力
         System.out.println(getName(firstName, lastName));
